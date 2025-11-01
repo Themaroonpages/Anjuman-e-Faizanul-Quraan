@@ -42,7 +42,6 @@ const App: React.FC = () => {
     return (
         <DataProvider>
             <div className="min-h-screen bg-base-100 dark:bg-d-base-100 text-text-primary dark:text-d-text-primary transition-colors duration-300">
-                <Header currentView={view} setView={setView} theme={theme} setTheme={setTheme} />
                 <main className="p-4 sm:p-6 lg:p-8">
                     {renderView()}
                 </main>
