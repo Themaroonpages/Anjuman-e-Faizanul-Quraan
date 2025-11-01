@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
 import AttendanceTaker from './components/AttendanceTaker';
 import FeesManager from './components/FeesManager';
 import AdminDashboard from './components/AdminDashboard';
